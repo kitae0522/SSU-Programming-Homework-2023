@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "example #1",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "wwwssssssssschh\r\n",
+      "output": "w3s9c1h2\r\n",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "example #2",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "soongsil\r\n",
+      "output": "s1o2n1g1s1i1l1\r\n",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "case #1",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "ppppppphhiiiiiiiiidttttjjjqqqqqqqqccccccttttttttt\r\n\r\n",
+      "output": "p7h2i9d1t4j3q8c6t9\r\n",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "case #2",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "gggeeeeeeeccccccccccccccccccciiiiibbbbtttttttttttvssdddddddddzzzzzzzzz\r\n",
+      "output": "g3e7c19i5b4t11v1s2d9z9\r\n",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "case #3",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "yyyyyyyyyyyyrrrrrrrrrrooooooooooohhhhhhhhhhhhhhhhhhhhcccccccccccctjjjjjjjjjjjjjjjyyyyyyyyyyyymmmmmmmmmmmmmmmmmmqqqqqqqqqqqqqqiiiiiiiiiiiiiiiiibbbbbbbxxxxxxxxxxxxxwwwwwwwwwwwwwwwwwqqqqqqqqqqqqqqqqqqqcccccccccccccccccdddddddddddddddddxxxjjjjjjjjjwwwwwwwwwwttttttttppppppppppppppppzzzzzoooooooooooooooooaaaagggggggggggggmmmmbbnnnnnnnnnnnnnuuuuuuuuuummmmyyyyyyqqqqqqqqqqqqqqqjjjjjjjjjjjjiiiiiiiiwwwwwwwwwwwwwwhhhhhhhhhhhhhhhhhhhddddaaaaaaaaaaeeeeeeeeaaaaaaaaaaaaarrrrrrrrrrrrrhhhhhhhhhhhhhxxxxmmjjjjjjjjjjjjjeeeeeeeeeeeeiiiiiiiiiiiiiiibbbbbbbbbbbbbbbbbbbxxxxxxxxxxxxxxxuuuuuuuuuuuurrrrrrrrrrrqqqqqqqqqqqqqqqqqqquuuuuuuuuuuiiiiiiiiiiiiiiiiiiiissssssssssssssssqqqqqqqqqqqqqqtttmmmttppppppppppppppppvvvvvvvvvvvvvvvvvjjjjjjjjjjjjjjjhhhhhtttttttttttttttttttzzzqqqqqqqqqqqqqqqqqwwwwwooooooooooooooooooooakkkkkkkkkkdddddddddddlkkkkkkkkkkkkkkkkkkkkqqqqqqqqqqqqdrrrrrruuuuuuuuussssssjjjjjjjjjjjaaaaaaaaaaassssoooooorrrrrrrrrrrrrrrrrrccccccoooooyyymmmmmmeeeeeeeeeevppppuddddddddddddddddddddwwwwttttttttttttttuuuuuuuuuuuuuuuuffffffffvvvvvvvvvvvvvvvvvvvvvvvvvvkkk\r\n",
+      "output": "y12r10o11h20c12t1j15y12m18q14i17b7x13w17q19c17d17x3j9w10t8p16z5o17a4g13m4b2n13u10m4y6q15j12i8w14h19d4a10e8a13r13h13x4m2j13e12i15b19x15u12r11q19u11i20s16q14t3m3t2p16v17j15h5t19z3q17w5o20a1k10d11l1k20q12d1r6u9s6j11a11s4o6r18c6o5y3m6e10v1p4u1d20w4t14u16f8v26k3\r\n",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 2
+    }
+  ]
+}

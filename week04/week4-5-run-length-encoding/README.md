@@ -1,0 +1,35 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/rDHLjBnI)
+# Run Length Encoding
+
+Run length encoding을 활용하여 텍스트 압축을 한 결과를 출력하세요. Run length encoding은 연속으로 반복되는 문자열이 있을 때, 이것을 반복되는 횟수와 반복되는 문자의 조합으로 바꾸는 방법입니다.
+
+- 입력은 소문자 영문 알파벳으로 한정합니다.
+- 입력받는 문자열의 길이는 최대 3000글자를 넘지 않는다고 가정합니다.
+
+## 입출력 예시
+(입력 #1)
+```
+wwwssssssssschh
+```
+(출력 #1)
+```
+w3s9c1h2
+```
+(입력 #2)
+```
+soongsil
+```
+(출력 #2)
+```
+s1o2n1g1s1i1l1
+```
+
+## 채점 방법
+
+다음의 명령어를 실행하여 채점을 진행합니다.
+
+```Makefile
+make clean all test
+```
+
+makefile의 내용이 올바르게 설정되어 있는지 확인해주세요.
