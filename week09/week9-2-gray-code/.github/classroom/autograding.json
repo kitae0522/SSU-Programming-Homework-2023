@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "example #1",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "7\r\n",
+      "output": "100\r\n",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "case #1",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "27459\r\n",
+      "output": "101111011100010\r\n",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "case #2",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "2147483644\r\n",
+      "output": "1000000000000000000000000000010\r\n",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "case #3",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "2143644431\r\n",
+      "output": "1000000001001111101111010001000\r\n",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "case #4",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "21\r\n",
+      "output": "11111\r\n",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 2
+    }
+  ]
+}

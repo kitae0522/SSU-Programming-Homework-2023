@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "example #1",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "2 2\r\n2 3 8\r\n6 7 3\r\n",
+      "output": "12 32 75 65 24\r\n",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "example #2",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "3 2\r\n2 3 -8 1\r\n6 -7 3\r\n",
+      "output": "12 4 -63 71 -31 3\r\n",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "case #1",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "6 8\r\n2 3 -8 1 5 -19 49\r\n6 -7 3 11 52 0 1 -2 1\r\n",
+      "output": "12 4 -63 93 136 -78 39 -294 186 -429 2543 -28 92 -117 49\r\n",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "case #2",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "12 13\r\n147 0 0 0 0 -14 44 11 -145 155 959 -85 1845\r\n91 0 185 60 -71 34 115 529 0 0 0 145 -2 1\r\n",
+      "output": "13377 0 27195 8820 -10437 3724 20909 76174 -5895 19774 57504 32660 362639 50568 262550 90461 56365 566674 168703 955002 22776 138600 -14088 268654 -3775 1845\r\n",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "case #3",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "3 2\r\n1 0 1 0\r\n4 -2 1\r\n",
+      "output": "4 -2 5 -2 1 0\r\n",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 2
+    }
+  ]
+}
