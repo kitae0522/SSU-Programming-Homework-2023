@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "base case",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "",
+      "output": "Hello Git!\r\n",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 10
+    }
+  ]
+}

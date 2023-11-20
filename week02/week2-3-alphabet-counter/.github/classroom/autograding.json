@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "example case 1",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "Program",
+      "output": "a:1 g:1 m:1 o:1 p:1 r:2",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "example case 2",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "C programming practice is FUN!",
+      "output": "a:2 c:3 e:1 f:1 g:2 i:3 m:2 n:2 o:1 p:2 r:3 s:1 t:1 u:1 ",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "lorem 200",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec qu",
+      "output": "a:14 b:1 c:9 d:7 e:19 g:4 i:15 l:7 m:10 n:13 o:13 p:4 q:2 r:8 s:15 t:13 u:12",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "lorem 500",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibu",
+      "output": "a:29 b:2 c:19 d:14 e:53 f:3 g:7 h:1 i:39 j:3 l:23 m:21 n:30 o:20 p:12 q:7 r:17 s:32 t:33 u:35 v:4",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "Pangram 900",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz. Brick quiz whangs jumpy veldt fox. Bright vixens jump; dozy fowl quack. Quick wafting zephyrs vex bold Jim. Quick zephyrs blow, vexing daft Jim. Sex-charged fop blew my junk TV quiz. How quickly daft jumping zebras vex. Two driven jocks help fax my big quiz. Quick, Baz, get my woven flax jodhpurs! 'Now fax quiz Jack!' my brave ghost pled. Five quacking zephyrs jolt my wax bed. Flummoxed by job, kvetching W. zaps Iraq. Cozy sphinx waves quart jug of bad milk. A very bad quack might jinx zippy fowls. Few quips galvanized the mock jury box. Quick brown dogs jump over the lazy fox. The jay, pig, fox, zebra, and my wolves quack! Blowzy red vixens fight for a quick jump..",
+      "output": "a:41 b:24 c:23 d:23 e:42 f:24 g:23 h:23 i:42 j:23 k:23 l:23 m:24 n:23 o:39 p:24 q:23 r:26 s:25 t:23 u:34 v:23 w:23 x:23 y:26 z:23",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 2
+    }
+  ]
+}

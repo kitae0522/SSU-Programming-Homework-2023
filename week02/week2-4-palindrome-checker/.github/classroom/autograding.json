@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "example case 1",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "aba",
+      "output": "True",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "example case 2",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "apple",
+      "output": "False",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "example case 3",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "taco cat",
+      "output": "True",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "example case 4",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "Don't nod.",
+      "output": "True",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "space case 1T",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "bird rib",
+      "output": "True",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "space case 2F",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "this is not a palindrome",
+      "output": "False",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "base case 1T",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "racecar",
+      "output": "True",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "base case 2F",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "Pneumonoultramicroscopicsilicovolcanoconiosis",
+      "output": "False",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "sentence 1T",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "Red roses run no risk, sir, on Nurse’s order.",
+      "output": "True",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "sentence 2T",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "Eva, can I see bees in a cave?",
+      "output": "True",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": null
+    }
+  ]
+}

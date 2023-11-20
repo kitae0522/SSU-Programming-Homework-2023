@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "case 1",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "1",
+      "output": "Hello Git!\r\n",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "case 2",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "2",
+      "output": "Hello Git!\r\nHello Git!",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "case 3",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "3",
+      "output": "Hello Git!\r\nHello Git!\r\nHello Git!",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "case 10",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "10",
+      "output": "Hello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "case 100",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "100",
+      "output": "Hello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!\r\nHello Git!",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    }
+  ]
+}
