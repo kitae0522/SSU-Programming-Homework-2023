@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "example case 1",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "Hello world!\r\n",
+      "output": "Helloworld!\r\n",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "example case 2",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\r\n",
+      "output": "Loremipsumdolorsitamet,consecteturadipiscingelit,seddoeiusmodtemporincididuntutlaboreetdoloremagnaaliqua.\r\n",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "long case",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\r\n",
+      "output": "Loremipsumdolorsitamet,consecteturadipiscingelit,seddoeiusmodtemporincididuntutlaboreetdoloremagnaaliqua.Utenimadminimveniam,quisnostrudexercitationullamcolaborisnisiutaliquipexeacommodoconsequat.Duisauteiruredolorinreprehenderitinvoluptatevelitessecillumdoloreeufugiatnullapariatur.Excepteursintoccaecatcupidatatnonproident,suntinculpaquiofficiadeseruntmollitanimidestlaborum.\r\n",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "no space",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "Hello\r\n",
+      "output": "Hello\r\n",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "many spaces",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "                             a                                                                                                                                                         b                         \r\n",
+      "output": "ab\r\n",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": null
+    }
+  ]
+}

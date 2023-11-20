@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "example case 1",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "Mathematician\r\nma\r\n\r\n",
+      "output": "1\r\n",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "example case 2",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\r\ndolor\r\n",
+      "output": "4",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "lower case ",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "mississippi\r\nss\r\n",
+      "output": "2\r\n",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "upper case",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "MASSACHUSETTS\r\nS\r\n",
+      "output": "4\r\n",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "sentence",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\r\n,\r\n",
+      "output": "4\r\n",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": null
+    }
+  ]
+}

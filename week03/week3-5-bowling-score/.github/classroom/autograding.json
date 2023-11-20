@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "example case 1",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "9 1\r\n10 0\r\n10 0\r\n8 2\r\n4 3\r\n6 4\r\n9 0\r\n7 3\r\n3 2\r\n10 10 4\r\n",
+      "output": "159\r\n",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "example case 2",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "10 0\r\n10 0\r\n10 0\r\n10 0\r\n10 0\r\n10 0\r\n10 0\r\n10 0\r\n10 0\r\n10 10 10\r\n",
+      "output": "300\r\n",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "extra case 1",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "8 1\r\n6 1\r\n9 0\r\n6 4\r\n7 3\r\n9 0\r\n5 2\r\n8 1\r\n9 1\r\n8 2 1\r\n",
+      "output": "115",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "extra case 2",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "6 4\r\n8 1\r\n5 5\r\n8 2\r\n10 0\r\n10 0\r\n10 0\r\n5 3\r\n9 1\r\n10 7 3\r\n",
+      "output": "186\r\n",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": null
+    }
+  ]
+}
