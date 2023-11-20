@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "example #1",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "2\r\n....\r\n....\r\n...A\r\n...A\r\nN 2 A\r\nW 4 A\r\n",
+      "output": "AB..\r\nA...\r\n....\r\n....\r\n",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "case #1",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "9\r\n...A\r\n....\r\n.A..\r\n....\r\nN 9 A\r\nW 13 A\r\nS 10 A\r\nE 14 A\r\nN 8 B\r\nN 10 A\r\nW 3 A\r\nN 15 A\r\nW 11 A\r\n",
+      "output": "CB..\r\nC...\r\n...A\r\nA...",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "case #2",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "1\r\n..B.\r\n.A..\r\n....\r\n....\r\nW 14 A\r\n",
+      "output": "B...\r\nA...\r\n....\r\n..A.\r\n",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "case #3",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "2\r\n....\r\n....\r\n...A\r\n...A\r\nN 9 A\r\nW 9 A\r\n",
+      "output": "B...\r\n....\r\nAA..\r\n....\r\n",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "case #4",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "5\r\n....\r\n.A..\r\n....\r\n.A..\r\nN 6 A\r\nE 1 A\r\nS 12 A\r\nW 14 A\r\nN 10 A\r\n",
+      "output": "CAA.\r\n....\r\n..A.\r\n....\r\n",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "case #5",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "14\r\n.AA.\r\n....\r\n....\r\n....\r\nW 1 A\r\nE 6 A\r\nW 3 A\r\nS 7 A\r\nW 5 A\r\nE 9 A\r\nN 6 A\r\nW 15 A\r\nS 7 A\r\nW 6 B\r\nN 11 A\r\nS 6 A\r\nW 14 A\r\nN 7 A\r\n",
+      "output": "ABA.\r\nC..A\r\nD...\r\n....\r\n",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "case #6",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "39\r\n.A.A\r\n....\r\n....\r\n....\r\nE 9 A\r\nS 7 A\r\nN 9 A\r\nE 8 A\r\nN 4 A\r\nN 9 A\r\nW 10 A\r\nN 9 A\r\nN 10 A\r\nN 12 A\r\nS 5 A\r\nE 9 A\r\nE 4 A\r\nW 15 A\r\nE 8 A\r\nW 0 A\r\nS 7 A\r\nN 14 A\r\nS 0 A\r\nE 12 A\r\nN 4 A\r\nS 9 A\r\nW 5 A\r\nN 14 A\r\nS 2 A\r\nN 15 A\r\nE 13 B\r\nN 12 A\r\nS 3 B\r\nS 3 A\r\nE 4 A\r\nS 8 A\r\nE 1 B\r\nN 8 A\r\nE 1 B\r\nE 4 A\r\nS 8 A\r\nS 0 A\r\nE 6 B\r\n",
+      "output": "...A\r\n..BB\r\n...F\r\nBCAB\r\n",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "case #7",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "134\r\n....\r\n....\r\n..A.\r\nA...\r\nN 4 A\r\nE 15 A\r\nS 0 A\r\nN 15 A\r\nW 9 B\r\nN 4 A\r\nS 15 A\r\nN 12 A\r\nN 11 A\r\nN 10 A\r\nE 6 A\r\nN 9 A\r\nE 4 A\r\nS 3 A\r\nN 8 A\r\nN 10 A\r\nS 0 A\r\nE 2 A\r\nN 14 A\r\nN 8 A\r\nE 0 A\r\nE 9 A\r\nE 6 A\r\nE 1 B\r\nS 8 A\r\nW 10 A\r\nE 12 A\r\nW 7 A\r\nN 14 A\r\nE 6 A\r\nW 9 A\r\nE 5 A\r\nN 8 A\r\nE 9 A\r\nW 7 A\r\nN 14 B\r\nN 11 A\r\nW 13 A\r\nS 6 A\r\nS 15 A\r\nW 0 A\r\nW 6 A\r\nS 15 A\r\nE 3 A\r\nS 12 A\r\nN 4 B\r\nS 0 A\r\nN 13 A\r\nN 9 A\r\nW 10 A\r\nS 1 A\r\nE 1 B\r\nS 0 A\r\nE 0 A\r\nN 4 A\r\nE 13 A\r\nN 9 A\r\nE 4 A\r\nS 0 A\r\nE 9 A\r\nS 8 A\r\nW 1 B\r\nS 2 A\r\nW 3 A\r\nN 10 A\r\nN 7 B\r\nW 10 B\r\nS 7 A\r\nS 7 B\r\nW 3 A\r\nN 10 A\r\nE 12 A\r\nS 3 A\r\nS 0 A\r\nE 2 A\r\nW 15 A\r\nS 6 A\r\nN 9 A\r\nW 14 A\r\nS 6 A\r\nE 9 A\r\nW 7 A\r\nE 8 A\r\nW 11 A\r\nS 3 A\r\nS 6 A\r\nE 0 A\r\nS 2 A\r\nS 1 A\r\nE 5 A\r\nS 6 A\r\nW 7 A\r\nN 10 A\r\nW 13 A\r\nS 6 A\r\nE 2 A\r\nN 15 A\r\nW 13 A\r\nE 8 A\r\nW 11 A\r\nN 12 A\r\nE 14 A\r\nS 3 A\r\nS 4 A\r\nN 5 A\r\nW 14 A\r\nE 10 A\r\nW 3 A\r\nS 6 A\r\nE 1 A\r\nS 3 A\r\nW 11 A\r\nE 2 A\r\nS 4 A\r\nE 4 B\r\nS 8 A\r\nW 15 A\r\nE 5 A\r\nS 8 A\r\nN 12 A\r\nS 1 A\r\nW 3 A\r\nW 2 A\r\nW 3 A\r\nW 7 A\r\nN 15 A\r\nN 14 A\r\nW 15 A\r\nW 15 B\r\nN 15 A\r\nN 10 A\r\nE 12 A\r\nS 1 A\r\nE 12 A\r\n",
+      "output": ".AFA\r\nCBDE\r\nDCAB\r\nABGA\r\n",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "case #8",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "209\r\n....\r\n....\r\n....\r\nA..A\r\nE 4 A\r\nN 9 B\r\nN 13 A\r\nE 13 A\r\nW 10 A\r\nW 9 A\r\nN 10 A\r\nS 8 A\r\nW 5 A\r\nE 9 A\r\nE 8 A\r\nW 5 B\r\nS 7 B\r\nE 2 A\r\nW 2 A\r\nS 10 A\r\nS 7 A\r\nE 10 A\r\nS 0 A\r\nN 8 A\r\nE 13 A\r\nE 13 A\r\nN 15 A\r\nW 11 A\r\nE 9 A\r\nS 0 A\r\nN 12 A\r\nS 3 A\r\nE 7 A\r\nS 2 A\r\nW 3 A\r\nW 3 A\r\nS 10 A\r\nE 1 A\r\nS 7 A\r\nW 6 A\r\nS 6 A\r\nN 13 A\r\nW 14 A\r\nE 14 A\r\nW 14 A\r\nE 12 A\r\nE 0 B\r\nW 9 A\r\nN 13 A\r\nE 10 A\r\nN 4 A\r\nW 13 A\r\nN 6 A\r\nS 4 A\r\nW 14 A\r\nW 3 A\r\nE 8 A\r\nS 2 A\r\nW 7 A\r\nS 7 A\r\nS 11 A\r\nN 8 A\r\nS 3 A\r\nS 5 A\r\nS 3 A\r\nN 10 A\r\nS 2 A\r\nS 0 B\r\nE 5 A\r\nS 2 A\r\nW 7 A\r\nN 15 B\r\nS 2 A\r\nS 2 B\r\nE 1 A\r\nS 2 A\r\nS 7 A\r\nW 3 A\r\nS 7 A\r\nN 15 A\r\nS 1 A\r\nE 1 A\r\nS 0 A\r\nN 12 A\r\nW 15 A\r\nN 13 A\r\nS 3 A\r\nN 14 A\r\nW 3 A\r\nN 11 A\r\nE 5 A\r\nS 0 A\r\nS 2 A\r\nW 15 A\r\nE 8 A\r\nW 5 A\r\nN 7 A\r\nW 15 A\r\nS 11 A\r\nW 3 B\r\nE 1 A\r\nS 1 A\r\nW 2 A\r\nS 1 A\r\nE 2 A\r\nW 2 A\r\nE 0 A\r\nW 11 A\r\nN 15 A\r\nE 0 A\r\nW 15 A\r\nS 3 A\r\nW 7 A\r\nN 14 A\r\nS 1 A\r\nE 1 A\r\nS 8 A\r\nE 13 A\r\nW 7 A\r\nS 7 A\r\nN 14 A\r\nW 14 A\r\nW 9 A\r\nE 8 A\r\nS 1 A\r\nN 14 A\r\nE 0 A\r\nE 13 A\r\nW 14 B\r\nS 2 B\r\nW 7 A\r\nE 1 A\r\nS 0 A\r\nE 0 A\r\nE 1 A\r\nE 0 A\r\nW 7 A\r\nW 7 A\r\nN 15 A\r\nS 3 A\r\nS 3 B\r\nW 7 A\r\nS 2 A\r\nE 0 A\r\nE 0 A\r\nW 7 A\r\nN 14 A\r\nE 12 A\r\nN 15 A\r\nN 14 A\r\nS 1 B\r\nW 15 A\r\nW 3 B\r\nN 15 A\r\nS 2 A\r\nE 4 A\r\nE 4 B\r\nE 4 A\r\nN 14 B\r\nS 0 A\r\nW 2 A\r\nW 14 A\r\nS 11 A\r\nS 2 A\r\nE 8 A\r\nE 0 A\r\nS 2 A\r\nW 3 B\r\nW 1 A\r\nE 0 A\r\nN 8 A\r\nW 15 A\r\nE 4 A\r\nS 2 A\r\nS 4 A\r\nE 0 A\r\nS 8 A\r\nN 8 A\r\nW 14 A\r\nN 13 A\r\nS 7 A\r\nW 2 A\r\nS 11 A\r\nW 7 A\r\nS 6 A\r\nN 13 A\r\nW 11 A\r\nW 15 A\r\nW 3 A\r\nE 9 A\r\nW 10 A\r\nE 8 A\r\nN 12 A\r\nS 2 A\r\nW 1 A\r\nE 12 A\r\nS 0 A\r\nN 14 A\r\nW 15 A\r\nE 13 A\r\nW 15 A\r\nN 13 A\r\nW 11 A\r\nS 6 A\r\nS 6 A\r\nE 1 A\r\nS 4 A\r\nN 12 B\r\nE 0 B\r\nE 0 A\r\nE 0 B\r\nS 0 B\r\nS 4 A\r\n",
+      "output": ".ABD\r\nAFAE\r\nCEHC\r\nDADA\r\n",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "case #9",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "163\r\n....\r\n...A\r\n..A.\r\n....\r\nN 15 A\r\nW 5 A\r\nE 2 A\r\nS 10 A\r\nW 0 A\r\nN 13 A\r\nE 1 A\r\nS 4 A\r\nW 15 A\r\nE 10 A\r\nN 12 A\r\nE 0 A\r\nN 10 A\r\nW 11 A\r\nW 3 A\r\nE 8 A\r\nW 13 A\r\nW 10 A\r\nN 10 A\r\nN 14 A\r\nE 12 A\r\nE 6 A\r\nN 10 B\r\nS 0 A\r\nN 10 A\r\nW 3 A\r\nE 12 A\r\nN 10 A\r\nS 8 A\r\nE 4 A\r\nS 5 A\r\nS 4 A\r\nS 9 B\r\nE 12 A\r\nW 6 B\r\nE 1 A\r\nS 12 A\r\nE 4 A\r\nS 9 A\r\nN 8 A\r\nW 11 A\r\nN 13 A\r\nS 2 A\r\nE 8 B\r\nS 3 A\r\nW 2 B\r\nS 7 A\r\nW 1 A\r\nW 11 A\r\nS 9 A\r\nN 11 A\r\nS 4 A\r\nE 6 A\r\nS 2 A\r\nW 1 B\r\nE 5 A\r\nS 5 A\r\nE 4 A\r\nS 3 A\r\nN 8 A\r\nS 1 A\r\nE 2 A\r\nS 0 A\r\nS 8 B\r\nS 8 A\r\nN 12 B\r\nS 7 A\r\nW 6 A\r\nE 3 A\r\nS 2 A\r\nE 0 A\r\nW 7 A\r\nS 2 A\r\nE 1 A\r\nS 3 A\r\nE 4 A\r\nW 2 A\r\nE 5 B\r\nE 0 A\r\nS 6 A\r\nW 11 A\r\nW 11 A\r\nS 1 A\r\nE 5 A\r\nE 0 A\r\nE 1 A\r\nW 2 A\r\nS 1 A\r\nW 2 A\r\nW 10 A\r\nE 6 A\r\nW 1 A\r\nE 4 B\r\nN 13 A\r\nS 4 A\r\nN 13 A\r\nN 13 A\r\nE 9 A\r\nN 13 B\r\nN 13 A\r\nW 11 A\r\nE 8 A\r\nS 2 A\r\nE 12 B\r\nE 2 A\r\nW 2 A\r\nS 1 A\r\nE 4 A\r\nS 2 A\r\nW 7 A\r\nS 3 A\r\nS 2 A\r\nE 2 A\r\nS 5 A\r\nE 4 A\r\nS 0 B\r\nW 3 A\r\nE 12 A\r\nS 2 A\r\nE 8 A\r\nN 12 A\r\nW 11 A\r\nS 1 A\r\nW 1 A\r\nS 7 A\r\nE 1 A\r\nS 0 A\r\nW 1 A\r\nE 1 A\r\nW 7 A\r\nS 3 B\r\nS 11 A\r\nN 11 A\r\nW 15 A\r\nN 15 A\r\nW 11 A\r\nS 3 A\r\nE 4 A\r\nS 2 A\r\nN 15 A\r\nW 6 A\r\nE 12 A\r\nE 0 A\r\nN 13 A\r\nW 11 A\r\nE 4 A\r\nN 8 A\r\nN 8 A\r\nW 14 A\r\nN 12 A\r\nW 6 A\r\nN 15 B\r\nS 7 A\r\nS 0 B\r\nS 0 B\r\nS 11 A\r\nE 4 B\r\nS 3 A\r\nE 1 A\r\nW 3 A\r\nE 4 A\r\nW 3 A\r\nS 0 A\r\n",
+      "output": "AEBA\r\nBCFD\r\nDGCB\r\nBFAC\r\n",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}

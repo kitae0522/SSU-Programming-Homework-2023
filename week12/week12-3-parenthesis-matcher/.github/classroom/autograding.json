@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "example #1",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "sfjke(af90jbnmf)fenm{fea194bp}\r\n",
+      "output": "TRUE\r\n",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "example #2",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "({)}\r\n",
+      "output": "FALSE\r\n",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "case #1",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "[([(<[{[]}]>)])][]({})\r\n",
+      "output": "TRUE\r\n",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "case #2",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "[fea{feav(kfen)kjklj}feb]<feaf>[jbviraf{fef}fbkl93](fea)((feab)(afe)bwef())\r\n",
+      "output": "TRUE\r\n",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "case #3",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "[feawjfe90<fjeiw(fjei)>fjeifjaf]ffe[[<fejif>()]fewfe](fjei<[fjief>)\r\n",
+      "output": "FALSE\r\n",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 2
+    }
+  ]
+}
