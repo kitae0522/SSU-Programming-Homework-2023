@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "example #1",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "ahalaaicpp\r\n",
+      "output": "appalachia\r\n",
+      "comparison": "exact",
+      "timeout": 2,
+      "points": 2
+    },
+    {
+      "name": "example #2",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "gajae\r\n",
+      "output": "-1\r\n",
+      "comparison": "exact",
+      "timeout": 2,
+      "points": 2
+    },
+    {
+      "name": "case #1",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "uimDos\r\n",
+      "output": "sodium\r\n",
+      "comparison": "exact",
+      "timeout": 2,
+      "points": 3
+    },
+    {
+      "name": "case #2",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "OgHartwS\r\n",
+      "output": "hogwarts\r\n",
+      "comparison": "exact",
+      "timeout": 2,
+      "points": 3
+    }
+  ]
+}

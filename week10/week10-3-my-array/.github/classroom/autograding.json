@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "example #1",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "[Lorem, ipsum, dolor, [sit, amet], vis, antiopan]\r\narr[3]\r\n",
+      "output": "[sit, amet]\r\n",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "example #2",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "[Lorem, ipsum, dolor, [sit, amet], vis, antiopan]\r\narr\r\n",
+      "output": "[Lorem, ipsum, dolor, [sit, amet], vis, antiopan]\r\n",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "example #3",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "[Lorem, ipsum, dolor, [sit, amet], vis, antiopan]\r\narr[3][1]\r\n",
+      "output": "amet\r\n",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "case #1",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "[Eyjnwmeh, [], pFrG, hnZsxXuss, QdpwIlHGJaObE, WqMlPmc, se, YqRkNdleSyWLYviuLC, [oJvtVwVkQGy, vzCxDNQXFurtgIKF, xgqFkCvx], HNZpRcy, [GaSwTAGH, hhKMVyWQJdtP, CHZQPNeVUEzzvTOU, aWlHhiCzecCCu, cOpzmvvoQcbKXiGTBVRt], SOPyUaz, [fAMEdWqcA, TPvQqZjeZOZt, RAdaXGqJUUEKlLkrqm], [], j, vRXdsTNBrAZZ, MkpgFkWlAdvuUYIBLcM, bbCrMRFrziKLJ, [RLAUmuWdatSYRPeW], [D, tR, wDMIEMJBmnFUl, pcCeTKkNQVuxBKuGhk]]\r\narr[8]\r\n",
+      "output": "[oJvtVwVkQGy, vzCxDNQXFurtgIKF, xgqFkCvx]\r\n",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "case #2",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "[Eyjnwmeh, [], pFrG, hnZsxXuss, QdpwIlHGJaObE, WqMlPmc, se, YqRkNdleSyWLYviuLC, [oJvtVwVkQGy, vzCxDNQXFurtgIKF, xgqFkCvx], HNZpRcy, [GaSwTAGH, hhKMVyWQJdtP, CHZQPNeVUEzzvTOU, aWlHhiCzecCCu, cOpzmvvoQcbKXiGTBVRt], SOPyUaz, [fAMEdWqcA, TPvQqZjeZOZt, RAdaXGqJUUEKlLkrqm], [], j, vRXdsTNBrAZZ, MkpgFkWlAdvuUYIBLcM, bbCrMRFrziKLJ, [RLAUmuWdatSYRPeW], [D, tR, wDMIEMJBmnFUl, pcCeTKkNQVuxBKuGhk]]\r\narr[1]\r\n",
+      "output": "[]\r\n",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "case #3",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "[Eyjnwmeh, [], pFrG, hnZsxXuss, QdpwIlHGJaObE, WqMlPmc, se, YqRkNdleSyWLYviuLC, [oJvtVwVkQGy, vzCxDNQXFurtgIKF, xgqFkCvx], HNZpRcy, [GaSwTAGH, hhKMVyWQJdtP, CHZQPNeVUEzzvTOU, aWlHhiCzecCCu, cOpzmvvoQcbKXiGTBVRt], SOPyUaz, [fAMEdWqcA, TPvQqZjeZOZt, RAdaXGqJUUEKlLkrqm], [], j, vRXdsTNBrAZZ, MkpgFkWlAdvuUYIBLcM, bbCrMRFrziKLJ, [RLAUmuWdatSYRPeW], [D, tR, wDMIEMJBmnFUl, pcCeTKkNQVuxBKuGhk]]\r\narr[10][1]\r\n",
+      "output": "hhKMVyWQJdtP\r\n",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "case #4",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "[BGCJsRyxWAydxKJD, [JYspWjEbyjUmT, MljpyDrvfvkIbXKl, hqtgPD, dEQbsVvVhpgiN, uXjFFxigzCoemZJ], hswMJVMOydPYKPEf, zt, [[uEOdKljcI, ILNG]], sGzhlnrBajShwu, [b], [CoQhObwLVEguwyZOG, rATLpqGC, WdgYjTiMATqGyVWmBK, OoEmsyoS], [qTcafHy, nQrWm, NJvqMWFEdBKMObntXY, VQ], PEWSdKwXKaBskCnrKTXT, [[yOSFPuYOK, SKh, zVRcplHLUT, HpY, Ozqo], [JzaDYIOchrjOTPssUSb, IxVTqUAHctvecMydLT], []], [[ooieKyzQb, G, ImTYES]], TfDEMXnDRdpttVNIzmWI, NsrpBvLvgeqCXK, [QBWXy, jENfZMhmilZgbYhPPW, SqFXDDvcKuorNnKmLU, fQRRovKAIFiyoTPROJip, XgvMH], obrFPAXoPKi, [[], [], []], [pgZACSg], [[mOfPSfvDstnzPazPu, lM], [aykyoc, Z, aZRfh, RrRYWZaHLzvjM], [ZFlaaf], [GciCdrmsXKKrk, RMhnecmbSfsmop, PhCDzbCO, gvewDvPuYJb, ejYLVW]], [sfh, xySOVKS]]\r\narr[5]\r\n",
+      "output": "sGzhlnrBajShwu\r\n",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "case #5",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "[BGCJsRyxWAydxKJD, [JYspWjEbyjUmT, MljpyDrvfvkIbXKl, hqtgPD, dEQbsVvVhpgiN, uXjFFxigzCoemZJ], hswMJVMOydPYKPEf, zt, [[uEOdKljcI, ILNG]], sGzhlnrBajShwu, [b], [CoQhObwLVEguwyZOG, rATLpqGC, WdgYjTiMATqGyVWmBK, OoEmsyoS], [qTcafHy, nQrWm, NJvqMWFEdBKMObntXY, VQ], PEWSdKwXKaBskCnrKTXT, [[yOSFPuYOK, SKh, zVRcplHLUT, HpY, Ozqo], [JzaDYIOchrjOTPssUSb, IxVTqUAHctvecMydLT], []], [[ooieKyzQb, G, ImTYES]], TfDEMXnDRdpttVNIzmWI, NsrpBvLvgeqCXK, [QBWXy, jENfZMhmilZgbYhPPW, SqFXDDvcKuorNnKmLU, fQRRovKAIFiyoTPROJip, XgvMH], obrFPAXoPKi, [[], [], []], [pgZACSg], [[mOfPSfvDstnzPazPu, lM], [aykyoc, Z, aZRfh, RrRYWZaHLzvjM], [ZFlaaf], [GciCdrmsXKKrk, RMhnecmbSfsmop, PhCDzbCO, gvewDvPuYJb, ejYLVW]], [sfh, xySOVKS]]\r\narr[10]\r\n",
+      "output": "[[yOSFPuYOK, SKh, zVRcplHLUT, HpY, Ozqo], [JzaDYIOchrjOTPssUSb, IxVTqUAHctvecMydLT], []]\r\n",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "case #6",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "[BGCJsRyxWAydxKJD, [JYspWjEbyjUmT, MljpyDrvfvkIbXKl, hqtgPD, dEQbsVvVhpgiN, uXjFFxigzCoemZJ], hswMJVMOydPYKPEf, zt, [[uEOdKljcI, ILNG]], sGzhlnrBajShwu, [b], [CoQhObwLVEguwyZOG, rATLpqGC, WdgYjTiMATqGyVWmBK, OoEmsyoS], [qTcafHy, nQrWm, NJvqMWFEdBKMObntXY, VQ], PEWSdKwXKaBskCnrKTXT, [[yOSFPuYOK, SKh, zVRcplHLUT, HpY, Ozqo], [JzaDYIOchrjOTPssUSb, IxVTqUAHctvecMydLT], []], [[ooieKyzQb, G, ImTYES]], TfDEMXnDRdpttVNIzmWI, NsrpBvLvgeqCXK, [QBWXy, jENfZMhmilZgbYhPPW, SqFXDDvcKuorNnKmLU, fQRRovKAIFiyoTPROJip, XgvMH], obrFPAXoPKi, [[], [], []], [pgZACSg], [[mOfPSfvDstnzPazPu, lM], [aykyoc, Z, aZRfh, RrRYWZaHLzvjM], [ZFlaaf], [GciCdrmsXKKrk, RMhnecmbSfsmop, PhCDzbCO, gvewDvPuYJb, ejYLVW]], [sfh, xySOVKS]]\r\narr[10][1][1]\r\n",
+      "output": "IxVTqUAHctvecMydLT\r\n",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "case #7",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "[BGCJsRyxWAydxKJD, [JYspWjEbyjUmT, MljpyDrvfvkIbXKl, hqtgPD, dEQbsVvVhpgiN, uXjFFxigzCoemZJ], hswMJVMOydPYKPEf, zt, [[uEOdKljcI, ILNG]], sGzhlnrBajShwu, [b], [CoQhObwLVEguwyZOG, rATLpqGC, WdgYjTiMATqGyVWmBK, OoEmsyoS], [qTcafHy, nQrWm, NJvqMWFEdBKMObntXY, VQ], PEWSdKwXKaBskCnrKTXT, [[yOSFPuYOK, SKh, zVRcplHLUT, HpY, Ozqo], [JzaDYIOchrjOTPssUSb, IxVTqUAHctvecMydLT], []], [[ooieKyzQb, G, ImTYES]], TfDEMXnDRdpttVNIzmWI, NsrpBvLvgeqCXK, [QBWXy, jENfZMhmilZgbYhPPW, SqFXDDvcKuorNnKmLU, fQRRovKAIFiyoTPROJip, XgvMH], obrFPAXoPKi, [[], [], []], [pgZACSg], [[mOfPSfvDstnzPazPu, lM], [aykyoc, Z, aZRfh, RrRYWZaHLzvjM], [ZFlaaf], [GciCdrmsXKKrk, RMhnecmbSfsmop, PhCDzbCO, gvewDvPuYJb, ejYLVW]], [sfh, xySOVKS]]\r\narr[18]\r\n",
+      "output": "[[mOfPSfvDstnzPazPu, lM], [aykyoc, Z, aZRfh, RrRYWZaHLzvjM], [ZFlaaf], [GciCdrmsXKKrk, RMhnecmbSfsmop, PhCDzbCO, gvewDvPuYJb, ejYLVW]]\r\n",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}
