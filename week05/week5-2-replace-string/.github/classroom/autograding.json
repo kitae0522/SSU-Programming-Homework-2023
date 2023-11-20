@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "example #1",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "a a aa aaaa aa\r\na a\r\nbcd\r\n",
+      "output": "bcd abcdaabcda\r\n",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "example #2",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "abaaacaca\r\na?a\r\nSSS\r\n",
+      "output": "SSSaSSSca\r\n",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "case #1",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "feajbnkf enai fjeifa  fbaf afeagrabva fcaba feaf faefa vabafeaf\r\nf?a\r\nAAA\r\n",
+      "output": "AAAjbnkf enai fjeifa  AAAAAAAAAgrabva AAAba AAAf faefa vabaAAAf\r\n",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "case #2",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "feajbnkf enai fjeifa  fbaf afeagrabva fcaba feaf faefa vabafeaf\r\nf??a\r\nKORQ\r\n",
+      "output": "feajbnkf enai fjeifa  fbaf afeagrabva fcaba feaKORQefa vabafeaf\r\n",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "case #3",
+      "setup": "",
+      "run": "make clean all test",
+      "input": "Lorem ipsum dolor sit amet  consectetur adipiscing elit  Nulla consequat a enim id tristique  Praesent sed tincidunt dolor  ut pharetra turpis  Sed scelerisque eget risus in molestie  Vestibulum iaculis pellentesque eros  Curabitur vitae purus lobortis  mollis augue ac  varius erat  Sed aliquet augue et risus vestibulum  ut sagittis lorem consequat  Nullam fermentum egestas ante non molestie  Sed finibus ipsum ac erat ultrices  sit amet viverra magna fermentum  Aenean facilisis enim eget eros mollis  malesuada volutpat orci sagittis  Nunc at velit et elit gravida malesuada  Etiam id tortor erat  Proin urna lacus  viverra id tempus eget  cursus sed lectus  Integer nulla neque  iaculis et turpis ut  ornare malesuada elit  Nulla facilisi  Etiam eu ex lacinia  sagittis diam nec  auctor neque  Integer porttitor bibendum consequat  Praesent vel consectetur tortor  Nam et urna rutrum  fermentum diam suscipit  gravida arcu  Donec a eros nibh  Nulla vel arcu odio  Nulla cras\r\ni??i?\r\nsncse\r\n",
+      "output": "Lorem ipsum dolor sit amet  consectetur adipsncseg elit  Nulla consequat a ensncse trsncseue  Praesent sed tsncseunt dolor  ut pharetra turpis  Sed scelerisque eget risus in molestie  Vestibulum iaculis pellentesque eros  Curabitur vitae purus lobortis  mollis augue ac  varius erat  Sed aliquet augue et risus vestibulum  ut sagsncse lorem consequat  Nullam fermentum egestas ante non molestie  Sed finibus ipsum ac erat ultrices  sit amet viverra magna fermentum  Aenean facilisis enim eget eros mollis  malesuada volutpat orci sagsncse  Nunc at velit et elit gravida malesuada  Etiam id tortor erat  Proin urna lacus  viverra id tempus eget  cursus sed lectus  Integer nulla neque  iaculis et turpis ut  ornare malesuada elit  Nulla facilisi  Etiam eu ex lacinia  sagsncse diam nec  auctor neque  Integer porttitor bibendum consequat  Praesent vel consectetur tortor  Nam et urna rutrum  fermentum diam suscipit  gravida arcu  Donec a eros nibh  Nulla vel arcu odio  Nulla cras\r\n",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 2
+    }
+  ]
+}
